@@ -1,0 +1,119 @@
+/* Cabeçalho menor e título centralizado */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; /* Reduz a altura do cabeçalho */
+    background: #ff80ab;
+    color: white;
+    font-size: 18px;
+    height: 60px; /* Definir altura menor */
+}
+
+/* Centralizar título */
+.logo-container {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Ajuste do tamanho da logo */
+.logo-container img {
+    width: 80px; /* Reduzi o tamanho da logo */
+    height: auto;
+    margin-right: 900px;
+}
+
+/* Botão Login */
+.login-button {
+    text-decoration: none;
+    color: white;
+    background: #d81b60;
+    padding: 15px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    position: absolute;
+    right: 20px;
+}
+
+.login-button:hover {
+    background: #c2185b;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ff80ab;
+    color: white;
+    font-size: 14px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    background: #ff80ab;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    padding: 0 10%;
+}
+
+.login-box {
+    width: 40%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.login-box h2 {
+    font-size: 25px;
+}
+
+.login-box input {
+    width: 100%;
+    padding: 1px;
+    margin: 5px 0;
+}
+
+.login-box button {
+    width: 100%;
+    padding: 10px;
+    background: #e91e63;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-box button:hover {
+    background: #c2185b;
+}
+
+.image-box img {
+    max-width: 250px;
+    height: auto;
+}
