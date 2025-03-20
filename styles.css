@@ -117,3 +117,7 @@ header {
     max-width: 250px;
     height: auto;
 }
+.dflex{
+    width: 100px;
+    display: flex;
+}
